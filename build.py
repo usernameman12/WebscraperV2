@@ -37,9 +37,7 @@ def search_code_snippet(domain, snippet):
 # New soupboot function
 def soupboot():
     print("Running soupboot...")
-    # Add the desired functionality for soupboot here
-    # For example, you can call existing functions or add new logic
-    # Example:
+    # soupboot here
     domain = "example.com"
     snippet = "<title>Example Domain</title>"
     ips = get_dns_record(domain)
